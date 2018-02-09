@@ -30,12 +30,15 @@ using ConvNetSharp.Core.Training.Double;
 using ConvNetSharp.Volume;
 using ConvNetSharp.Volume.Double;
 
+
+
 namespace MinimalExample
 {
     internal class Program
     {
         private static void Main()
         {
+		//HHR comment
             // specifies a 2-layer neural network with one hidden layer of 20 neurons
             var net = new Net<double>();
 
